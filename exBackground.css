@@ -1,0 +1,40 @@
+body{
+    background: lightblue;
+}
+p{
+    background-color: lightgreen;
+}
+div.um{
+    background-image: url("sol.jpg");
+    width: 100%;
+    height: 500px;
+}
+div.dois{
+    background-image: url("sol.jpg");
+    background-repeat: repeat-y;
+    width: 100%;
+    height: 500px;
+}
+div.tres{
+    background-image: url("sol.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+div.quatro{
+    background-image: url("sol.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+}
+div.cinco{
+    background-color: yellow;
+    background-image: url("sol.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+}
+
